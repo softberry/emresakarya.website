@@ -1,0 +1,65 @@
+{
+  "name": "Memory Game",
+  "short_name": "Memory",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/mini-memory/",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "icons/icon-70x70.png",
+      "sizes": "70x70",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-150x150.png",
+      "sizes": "1506x150",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null,
+  "imageServer": {
+    "host": "images.emresakarya.com",
+    "list": "//images.emresakarya.com/memory/list/:from/:to/:cardId",
+    "image": "//images.emresakarya.com/memory/crop/:width/:height?image=:path"
+  },
+  "socialMedia": {
+    "url": "https://www.emresakarya.com/mini-memory/",
+    "media": ["facebook", "twitter", "linkedin", "xing"]
+  },
+  "amp": {
+    "customElement": "amp-auto-ads",
+    "publisherId": "ca-pub-9165355462785271"
+  }
+}

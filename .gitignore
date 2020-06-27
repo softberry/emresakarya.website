@@ -1,0 +1,12 @@
+.env
+.DS_Store
+.idea/
+.sass-cache/
+.vscode/
+app/
+node_modules
+# IGNORED IN PUBLIC REPO
+src/
+gulpfile.js
+package.json
+yarn.lock
