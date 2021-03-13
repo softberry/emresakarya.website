@@ -7,6 +7,7 @@ fi
 
 if [ -z "$(git status --porcelain)" ]; then 
   git checkout master
+  yarn build
   git commit -am "build public"
   git checkout website
   git checkout master -- dist/
